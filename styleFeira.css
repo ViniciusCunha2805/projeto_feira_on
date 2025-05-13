@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+
+.navbar{
+    background-color: #db5920;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.btn-group:hover{
+    background-color: #cc5827;
+    box-shadow: 2px 2px  rgba(0, 0, 0, 0.46);
+}
+
+hr{
+    width: 80px;
+    margin: 20px;
+}
+
+.hrProdutor{
+  width: 550px;
+  margin: 10px;
+  
+}
+
+#hrHome{
+    width: 80px;
+    margin: 20px auto;
+}
+
+.div-explore{
+    background-color: #db5920;
+    z-index: 1000;
+    color: #000;
+}
+
+#explore-content div{
+    background-color: rgba(255, 255, 255, 0.783);
+    z-index: 1000;
+    color: #000;
+    padding: 20px;
+}
+
+.img-pessoas{
+    max-width: 500px;
+    width: 100%;
+}
+
+#explore {
+    background-image: url("imgPagProd/fundo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1200px;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  #explore #explore-content {
+    position: relative;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  #explore #explore-content div {
+    width: 500px;
+  }
+  
+  #explore #explore-content .section-title {
+    text-align: left;
+  }
+  
+  #explore #explore-content .divider {
+    margin-left: 0;
+  }
+
+  .footer{
+    padding: 20px;
+    margin-top: 50px;
+    position: relative;
+
+  }
+
+.carousel {
+  max-width: 600px;
+  width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+  .inicio{
+    display: none;
+  }
+  .dropPrincipal{
+    display: none;
+  }
+  .mobile-menu-icon {
+      display: block;
+  }
+  .mobile-menu-icon button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+  }
+  .open {
+      display: block;
+  }
+  .button-g{
+    display: block;
+  }
+  .img-pessoas{
+    display: none;
+  }
+  .img-contato{
+    display: none;
+  }
+  #explore{
+    background-image: none;
+  }
+  .hrProdutor{
+    width: 0;
+  }
+  
+}
+
+#textoProdutor {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 80px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
